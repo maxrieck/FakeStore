@@ -1,0 +1,19 @@
+.custom-button {
+    text-decoration: none;
+    background-color: rgb(32, 37, 41);
+    color: rgba(255, 255, 255, 0.829);
+    padding: 4px;
+    border-radius: 4px;
+    font-weight: 400;
+}
+
+.custom-button:hover {
+    background-color: rgba(32, 37, 41, 0.96);
+    color: white;
+}
+
+body {
+    background-color: #dfe2e4 !important; 
+    color: #212529; 
+    font-family: Arial, sans-serif; 
+}

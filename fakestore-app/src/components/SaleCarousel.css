@@ -1,0 +1,26 @@
+.sale-carousel-wrapper {
+  position: relative;
+  width: 100%;
+  padding: 40px 0; /* Add space for arrows */
+}
+
+.sale-carousel-wrapper .carousel-control-prev,
+.sale-carousel-wrapper .carousel-control-next {
+  width: 5%;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+}
+
+.sale-carousel-wrapper .carousel-control-prev {
+  left: -40px;
+}
+
+.sale-carousel-wrapper .carousel-control-next {
+  right: -40px;
+}
+
+.custom-arrow {
+  background-size: 100% 100%;
+   filter: invert(1);
+}
